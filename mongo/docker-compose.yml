@@ -1,0 +1,12 @@
+mongo:
+      image: mongo
+      hostname: mongo
+      volumes:
+          - ./db:/data/db
+      environment:
+         - MONGO_INITDB_DATABASE=testdb
+         - MONGO_INITDB_ROOT_USERNAME=testuser
+         - MONGO_INITDB_ROOT_PASSWORD=123456
+      ports:
+          - "27017:27017"
+          - "28017:28017"
