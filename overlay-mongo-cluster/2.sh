@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-mongodb1="10.0.0.130"
-mongodb2="10.0.0.131"
-mongodb3="10.0.0.132"
+mongodb1="mongo-1-1"
+mongodb2="mongo-1-2"
+mongodb3="mongo-1-3"
 
 port="27017"
 RS="rs1"
