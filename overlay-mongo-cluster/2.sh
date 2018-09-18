@@ -24,7 +24,8 @@ mongo <<EOF
             },
             {
                 "_id": 2,
-                "host": "${mongodb3}:${port}"
+                "host": "${mongodb3}:${port}",
+                "arbiterOnly":true
             }
         ]
     };
