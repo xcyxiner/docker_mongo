@@ -10,3 +10,13 @@
 * 查看容器在aaa网路下的IP地址
 * 连接Primay主机的MongoDB，执行 rs.add("IP:Port");
 * 查看状态 rs.status()
+
+## 移除节点
+
+```
+所有节点移除都是这样
+rs.remove("IP:Port");
+
+添加仲裁节点
+rs.addArb("IP:Port");
+```
